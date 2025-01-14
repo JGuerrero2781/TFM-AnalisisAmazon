@@ -55,7 +55,7 @@ Review: 'The quality is average' --> Sentimiento: NEUTRAL
 Review: 'It works as described, but I wouldn't buy it again.' --> Sentimiento: NEUTRAL
 
 ## Archivos Incluidos
-Código Principal (sentiment_analysis.ipynb)
+Código Principal (Amazon_Reviews_Sentiment_Analysis_compartido.ipynb)
 Contiene las funciones para preprocesamiento, análisis de sentimientos y modelado.
 
 ## Modelo Entrenado (best_model_and_vectorizer.pkl)
@@ -103,4 +103,4 @@ predictions = model.predict(new_reviews_vectorized)
 print(predictions)
 
 ## Evaluar el Modelo
-Visualizar la matriz de confusión y curva ROC con los scripts incluidos en sentiment_analysis.py.
+Visualizar la matriz de confusión y curva ROC con los scripts incluidos en Amazon_Reviews_Sentiment_Analysis_compartido.ipynb.
